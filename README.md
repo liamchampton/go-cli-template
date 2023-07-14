@@ -37,7 +37,7 @@ Once this is done, you are ready to start coding!
 run the commands:
 
 ```bash
-go buiild
+go build
 ./go-cli-template
 ```
 
