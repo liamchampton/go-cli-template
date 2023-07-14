@@ -8,6 +8,9 @@
 *.so
 *.dylib
 
+# Example build binary file
+go-cli-template
+
 # Test binary, built with `go test -c`
 *.test
 

@@ -19,7 +19,14 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "go install github.com/spf13/cobra-cli@latest && export $PATH=$PATH:GOBIN"
+	"postCreateCommand": "go install github.com/spf13/cobra-cli@latest && export $PATH=$PATH:GOBIN",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
